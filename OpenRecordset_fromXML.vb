@@ -7,7 +7,6 @@ Public Function acOpenRecordset_from_ExcelWorksheet(xlWrkBk_SP As Excel.Workbook
 'Objects
  Dim xDocCMI As Object
  Dim xDocWorksheet_Tab_DBUpload As Object
- 'Dim msXMLDoc As MSXML2.DOMDocument 'this object is just for testing not used in production
  Dim rsCMI As ADODB.Recordset
  Dim rsWorksheet_Tab_DBUpload As ADODB.Recordset
  Dim rsFilter As ADODB.Recordset
